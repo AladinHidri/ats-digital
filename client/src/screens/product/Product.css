@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  flex: 1;
+}
+
+.review {
+  margin: 10px;
+  padding: 10px;
+  border: solid #24a7d7 2px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.review > div {
+  text-align: left;
+}

@@ -1,0 +1,90 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.filter {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #24a7d7;
+  margin-bottom: 10px;
+}
+
+.filter > select {
+  width: 300px;
+  height: 50px;
+}
+
+.products {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  overflow: auto;
+}
+
+.productCard {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 25px;
+  background-color: #24a7d7;
+  border-radius: 40px;
+  color: #000000;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.productPicture {
+  height: 150px;
+  width: 150px;
+  border-radius: 80px;
+  overflow: hidden;
+  border: solid #ffffff 4px;
+}
+
+.productPicture > img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+
+.productDescription {
+  font-size: 15px;
+  height: 60px;
+  overflow: hidden;
+}
+
+.pages {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #24a7d7;
+  margin-top: 10px;
+}
+
+.pages > span {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.pages > button {
+  color: #24a7d7;
+  font-weight: bold;
+  font-size: 25px;
+}
